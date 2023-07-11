@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>comedy club</title>
+    <link rel="stylesheet" href="comc.css">
+
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+              <img class="logo" src="logo.png" alt="Logo">
+            <header> 
+    <h1 class="main_heading"><center>COMEDY CLUB</center></h1>
+    
+    <div class="social-icons">
+        <a href="https://www.instagram.com/comedy_club_iit_kharagpur/" target="_blank">
+          <img src="ig.jpg" alt="Instagram" width="24" height="24">
+        </a>
+        <a href="https://www.facebook.com/comedyclubiitkgp/" target="_blank">
+          <img src="fb.jpg" alt="Facebook" width="24" height="24">
+        </a>
+      </div></header>
+    <hr>
+    <nav>
+        <ul>
+          <li><a href="file:///E:/Html/comedy%20club.html#file:///E:/Html/contactform.html">Home</a></li>
+          <li><a href="file:///E:/Html/paymrnt.html">Tickets</a></li>
+          <li><a href="https://www.facebook.com/comedyclubiitkgp">About Us</a></li>
+          <li><a href="file:///E:/Html/contactform.html">Contact</a></li>
+        
+        </ul>
+        
+      </nav>
+      <div class="container">
+        <h1>Welcome to Technology Comedy Club!</h1>
+        <p>
+         
+         Technology Comedy Club: TCC is the official club of IIT Kharagpur for students interested in standup 
+         comedy, improv comedy or just anybody who enjoys making people laugh. It gives them a chance to share
+         their stories publicly on stage. Established in 2019 by a group of students with the goal of creating 
+          a prosperous culture for comic artists on campus and a place for campus community to unwind and relax
+          while keeping IIT Kharagpur at the forefront of improv comedy and standup comedy.
+        </p>
+        <div class="slideshow-container">
+            <div class="slide">
+              <img src="gov.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+              <img src="comcc.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+              <img src="gov.jpg" alt="Image 3">
+            </div>
+          </div>
+          
+          <script>
+            var slides = document.getElementsByClassName('slide');
+            var currentSlide = 0;
+            
+            function showSlide() {
+              for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+              }
+              
+              slides[currentSlide].style.display = 'block';
+              
+              // Move to the next slide
+              currentSlide++;
+              if (currentSlide >= slides.length) {
+                currentSlide = 0; // Start from the first slide again
+              }
+              
+              setTimeout(showSlide, 2000); // Change slide every 2 seconds (2000 milliseconds)
+            }
+            
+            showSlide(); // Start the slideshow
+          </script>
+
+      <div class="cta">
+        <h2>Join us for an unforgettable evening!</h2>
+        <p>Book your tickets now and get ready for a laughter-filled night.</p>
+        <a href="file:///E:/Html/paymrnt.html">Get Tickets</a>
+      </div>
+      
+      <p>Join us for an unforgettable evening filled with laughter, good vibes, and a fantastic lineup of talented comedians. Grab your tickets now!</p>
+    </div>
+    
+    <footer>
+      &copy; 2023 Comedy Club. All rights reserved.
+    </footer>
+    <div class="made-by">
+        Made by Sameer
+      </div>
+</body>
